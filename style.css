@@ -1,0 +1,52 @@
+/* ------------------------------
+	Globals
+
+	DARK 212738 •
+	SALMON 6A6B83 •
+	CHARTRUSE B0FE76 •
+	LIGHT GRAY EDF2EF •
+	SKY BLUE 45ECFF
+------------------------------ */
+
+
+body {font-family: 'Raleway', sans-serif; font-size: 100%; font-size: 1.2em; margin: 0; padding: 0; color: #000; background: #F1F0EA;}
+
+p {line-height: 1.5em;}
+
+p a {color: #000; text-decoration: none; border-bottom: 4px solid #45ECFF;}
+p a:hover, p a:focus {background-color: #45ECFF;}
+
+
+.skip-to-link {background:#08163e; border:3px double #fff; border-radius:1em; color:#fff; display:block; font-weight:bold; margin:.5em auto; padding:.5em; position:absolute; text-align:center; top:-9em; width:12em}
+.skip-to-link:focus {position:static; text-decoration:underline}
+.skip-to-link:visited{color:#fff}
+
+/* ------------------------------
+	Homepage Stuff
+------------------------------ */
+
+
+header {background: #383F51; width: 100%; text-align: center; margin: 0; padding: 1em 0 1em 0; display: block;}
+header .site-title {color: #383F51; font-size: 1.5em; font-weight: 100;}
+h1 {color: #383F51; serif; margin: .5em auto; font-size: 2.5em; font-weight: normal;}
+h1.site-title {font-size: 3em; color: #EDF2EF; margin-bottom: 0; font-weight: 100; text-shadow: 1px 1px 5px #000;}
+header p {color: #fff; font-weight: 300; text-shadow: 1px 1px 5px #000; margin: 0; padding: 0; font-size: 2em;}
+
+.amp {font-family: 'Goudy Bookletter 1911', serif;}
+
+header.homepage {background: #383F51; color: #fff;}
+
+h2 {color: #6A6B83; font-weight: 300; font-size: 2em;}
+
+section {display: block; width: 96%; display: block; text-align: center; padding: 0 2%;}
+section div {max-width: 50em; margin: 30px auto; text-align: left;}
+
+footer {text-align: center; margin: 2em auto;}
+
+/* ------------------------------
+	Portfolio Stuff
+------------------------------ */
+
+header.internal {min-height: 5em; width: 100%; text-align: center; margin: 0; padding: .5em 0 1em 0; display: block; background-image: none; background-color: #08163e;}
+header.internal h1 {font-size: 5em; text-align: center; margin: 0px; padding: 0px; margin-left: 3.14%;}
+header.internal p {font-size: 1em; text-align: center; color: #666; margin: 0 0 0 3.14%; padding: 0px;}

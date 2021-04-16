@@ -1,0 +1,107 @@
+/* -----------------------------------
+	GLOBALS
+ ----------------------------------- */
+
+
+ 
+
+
+h1 a {color: #fff; text-decoration: none;}
+h1 a:hover {color: #45ECFF; text-decoration: none;}
+h2 {text-align: center; color: #6A6B83; font-weight: 300; font-size: 2em;}
+
+header {background: #383F51;}
+header .site-title {color: #fff;}
+
+/* -----------------------------------
+	FILTER WIDGET
+ ----------------------------------- */
+.portfolioFilter {text-align: center; margin: 10px; width: 100%;}
+.portfolioFilter a {margin: 5px; text-decoration:none; background: #45ECFF; color: #000; padding: 10px 20px; display: inline-block; border-radius: 3px; border-bottom: none;}
+.portfolioFilter a:hover, .portfolioFilter a:focus {background: #B0FE76; color:#000;}
+.portfolioFilter a.current {font-weight:bold;}
+
+
+/* -----------------------------------
+	ISOTOPE GRID LAYOUT - Mobile
+ ----------------------------------- */
+ .portfolioContainer {
+   -webkit-columns: 250px;
+   columns: 250px;
+   -webkit-column-gap: 20px;
+  column-gap: 20px;
+  margin: 1em auto;
+  border: 1px solid #F1F0EA;
+  max-width: 1200px
+}
+
+.portfolioContainer article {
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid-column;
+  margin: .25rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  max-width: 250px;
+}
+
+.portfolioContainer article img {width: 100%;}
+.portfolioContainer article .noborder {border-bottom: none;}
+
+/* .portfolioContainer div {width: 100%; border: none; background: #e5e5e5; margin: 0 0.5% 1% 0.5%; text-align: left; }
+.portfolioContainer div img {margin: 2%; width: 96%;}
+.portfolioContainer div h3 {margin:10px; font-weight: normal; color: #421c77; font-size: 1.5em;}
+.portfolioContainer div p {margin: 0 10px 10px 10px;} */
+
+@media only screen and (max-width: 1100px) {
+  .portfolioContainer article {max-width: 200px;}
+}
+@media only screen and (max-width: 600px) {
+  .portfolioContainer article {max-width: 100%;}
+}
+
+/* -----------------------------------
+	ISOTOPE TRANSITIONS
+ ----------------------------------- */
+.isotope-item {z-index: 2;}
+.isotope-hidden.isotope-item {pointer-events: none; z-index: 1;}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
